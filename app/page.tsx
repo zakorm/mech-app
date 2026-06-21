@@ -11,7 +11,7 @@ export default function Home() {
 				<div className="grid grid-cols-3 gap-4 text-center">
 					<div>
 						
-						<Link href="Gears">
+						<Link href="gears">
 							<div className="flex justify-center">
 								<Image src="/Gears.png" alt="Gears" width={200} height={200} className="shadow-lg rounded-xl"/>
 							</div>
@@ -19,7 +19,12 @@ export default function Home() {
 						</Link>
 					</div>
 					<div>
-						<a href="https://mail.google.com/">My google</a>
+						<Link href="game">
+							<div className="flex justify-center">
+								<Image src="/controller.png" alt="Controller" width={200} height={200} className="shadow-lg rounded-xl"/>
+							</div>
+							Game
+						</Link>
 					</div>
 					<div>
 						<a href="https://mail.google.com/">My apple</a>
