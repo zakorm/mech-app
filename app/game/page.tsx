@@ -8,6 +8,7 @@ export default function Home() {
 			<div className="flex justify-center items-center h-screen overflow-hidden">
 				<iframe
 					src="/Unity/index.html"
+					allow="autoplay; fullscreen"
 					style={{ 
 						width: '100%', 
 						height: '2000%', 
