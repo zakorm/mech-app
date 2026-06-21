@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      #unity-footer {
+        display: none;
+      }
+    </style>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | baloon pop</title>
@@ -9,7 +19,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1640 height=2360 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=820 height=1180 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -94,8 +104,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "1640px";
-        canvas.style.height = "2360px";
+        canvas.style.width = "820px";
+        canvas.style.height = "1180px";
       }
 
       loadingBar.style.display = "block";
